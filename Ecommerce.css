@@ -582,9 +582,45 @@ label{
     width: 30px;
 }
 
-@media screen and (max-width:480px) {
-    body{
-        background-color: red;
+@media screen and (max-width:1100px) {
+    .sliderTitle{
+        font-size: 30px;
     }
-    
+    .gallery{
+        padding: 0;
+    }
+    .galleryItem{
+        padding: 0;
+    }
+    .galleryItem>h1{
+        display: none;
+    }
+    .productDetails{
+        padding: 0;
+    }
+    .productTitle{
+        margin: 10px;
+    }
+    .productPrice{
+        margin: 0;
+    }
+}
+
+@media  screen and (max-width:1000px) {
+    .gallery{
+        display: none ; 
+    }
+    .newSeason{
+        margin-top: 50px;
+    }
+}
+
+@media  screen and (max-width: 950px) {
+    .newSeason{
+        display: none;
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
+    }
 }
