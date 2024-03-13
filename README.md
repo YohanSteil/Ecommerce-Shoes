@@ -1,4 +1,4 @@
-# Ecommerce-Shoes
+# Projet ecommerce shoes
 
 J'ai réalisé ce site pour m'exercer. Les langages utilisés sont :
 
